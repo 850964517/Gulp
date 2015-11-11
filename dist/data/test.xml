@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ROW>
+    <COLUMN SOURCE="1" NAME="age" xsi:type="SQLINT" />
+    <COLUMN SOURCE="2" NAME="firstname" xsi:type="SQLVARYCHAR"/>
+    <COLUMN SOURCE="3" NAME="lastname" xsi:type="SQLVARYCHAR"/>
+    <COLUMN SOURCE="4" NAME="lastname" xsi:type="SQLVARYCHAR"/>
+  </ROW>

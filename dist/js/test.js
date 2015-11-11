@@ -1,0 +1,1 @@
+"use strict";window.onload=function(){var o=10,l=20;console.log(l),console.log(o),console.log(o+l),console.log(o-l)};

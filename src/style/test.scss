@@ -1,0 +1,18 @@
+@charset "utf-8"
+$base-color:#000;
+@mixin ft($num) {
+	font-size:$num;
+}
+/*向左浮动*/
+.fl{
+	float:left;
+}
+body{
+    color:lighten($base-color,10%);
+}
+.content{
+	/*引入向左浮动*/
+	 @extend .fl;
+	 @include ft(14px);
+
+}
