@@ -2,7 +2,7 @@
 * @Author: Anle
 * @Date:   2015-10-19 10:06:10
 * @Last Modified by:   Anle
-* @Last Modified time: 2015-10-20 15:26:31
+* @Last Modified time: 2015-11-18 16:38:17
 */
 
 'use strict';
@@ -111,6 +111,7 @@ gulp.task('serve',function(){
 gulp.task('build',['clean','html','images','data'],function(){
 	//在执行bulid任务时,会先执行clean,html,image.data任务
    console.log('编译成功');
+   console.log('测试git');
 });
 /*文件监听(文件发生变化将会自动执行)*/
 gulp.task('watch',function(){
